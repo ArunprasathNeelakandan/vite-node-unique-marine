@@ -1,0 +1,16 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/appuniquemarine/public_html/api"
+PassengerBaseURI "/"
+PassengerNodejs "/home/appuniquemarine/nodevenv/public_html/api/18/bin/node"
+PassengerAppType node
+PassengerStartupFile index.js
+PassengerAppLogFile "/home/appuniquemarine/logs/passenger.log)"
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/appuniquemarine/public_html/api"
+PassengerBaseURI "/api"
+PassengerNodejs "/home/appuniquemarine/nodevenv/public_html/api/18/bin/node"
+PassengerAppType node
+PassengerStartupFile index.js
+PassengerAppLogFile "/home/appuniquemarine/logs/passenger.log"
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END

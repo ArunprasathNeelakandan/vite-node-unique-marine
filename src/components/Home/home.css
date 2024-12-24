@@ -1,0 +1,48 @@
+.home-bg {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    height: 100vh;
+    padding-top: 20vh;
+}
+
+.search-container {
+    height: fit-content;
+    padding: 20px 40px 20px 40px;
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;  
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.input-item{
+    padding: 3PX;
+    margin: 5PX 0PX 10PX;
+    padding: 8px;
+    outline: none;
+}
+
+.view-btn {
+    background-color: #0275d8;
+    padding: 5px 10px;
+    border: solid 1px;
+    border-radius: 5px;
+    color: white;
+    transition: 0.1s;
+}
+
+.view-btn:hover {
+    transform: scale(1.1);
+    transition-duration: 0.1s;
+}
